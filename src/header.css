@@ -1,0 +1,30 @@
+header {
+  width: 100%;
+  margin: auto;
+  background-color: #333333;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.navbar {
+  width: 980px;
+  margin: auto;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar ul li {
+  display: block;
+  width: 300px;
+  margin: 20px 5px;
+}
