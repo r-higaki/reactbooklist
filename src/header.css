@@ -27,4 +27,6 @@ header {
   display: block;
   width: 300px;
   margin: 20px 5px;
+  text-decoration: none;
+  color: #ffffff;
 }

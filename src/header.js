@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 import "./header.css";
 
 export default function Header() {
     return (
+
       <header>
         <p>本を紹介するページ</p>
         <div className="header-img">
@@ -10,9 +12,9 @@ export default function Header() {
         </div>
         <div className="navbar">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>List</li>
+          <Link to="/"><li>Home</li></Link>
+          <Link to="/about"><li>About</li></Link>
+          <Link to="/list"><li>List</li></Link>
         </ul>
         </div>
       </header>
