@@ -1,12 +1,21 @@
 body {
   margin: auto;
+  margin-top: -20px;
+  padding: 0;
 }
 
 .total-area {
   width: 100%;
   margin: auto;
+  padding: 0;
 }
 
-h1, h2 {
-  text-align: center;
+.main {
+  width: 780px;
+  margin: auto;
+  text-align: left;
+}
+
+li {
+  list-style: none;
 }

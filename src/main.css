@@ -1,6 +1,7 @@
 .list {
   width: 720px;
   margin: auto;
+  margin-top: 100px;
   margin-bottom: 50px;
   border-bottom: solid 1px #333333;
 }
@@ -25,4 +26,9 @@
 
 .comment {
   width: 720px;
+}
+
+h1 {
+  width: 720px;
+  margin: auto;
 }

@@ -30,3 +30,8 @@ header {
   text-decoration: none;
   color: #ffffff;
 }
+
+.navbar ul li:hover {
+  background: #ffffff;
+  color: #333333;
+}
